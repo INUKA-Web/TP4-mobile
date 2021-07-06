@@ -17,5 +17,11 @@ On va vérifier que votre téléphone peut se connecter au serveur sur voter ord
 
 Une fois que vous arrivez à accéder à votre site depuis votre téléphone :
 
+## Vibration API
+
 - Recopier cette instruction : `navigator.vibrate([50, 100, 150]);` (source : https://www.w3.org/TR/vibration/#examples)
 - La rajouter dans le code de la fonction de callback qui affiche l'heure.
+
+## Device Motion API
+
+Utiliser et adapter le code sur cette page : https://masf-html5.blogspot.com/2016/04/html5-orientation-api.html pour faire bouger le logo "HTML5" quand vous bougez le téléphone.
