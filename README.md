@@ -24,4 +24,18 @@ Une fois que vous arrivez à accéder à votre site depuis votre téléphone :
 
 ## Device Motion API
 
-Utiliser et adapter le code sur cette page : https://masf-html5.blogspot.com/2016/04/html5-orientation-api.html pour faire bouger le logo "HTML5" quand vous bougez le téléphone.
+Utiliser et adapter le code sur cette page : https://masf-html5.blogspot.com/2016/04/html5-orientation-api.html pour faire bouger le logo "HTML5" quand vous bougez le téléphone :
+
+- prendre le code dans la section "Device Motion" (pas device orientation) ; exemple seul ici : http://output.jsbin.com/xupobi
+- Créer un nouveau fichier HTML sur votre serveur dans le répertoire `public` et coller le code dedans
+- Remarque : il y a une erreur de le code de la balise `<img` -> `<img src="http://...`
+
+## Exercice à faire
+
+Intégrer cet exemple dans la SPA :
+
+- créer une nouvelle vue (section) dans la page HTML
+- Rajouter le code HTML de la page dans cette section (ne pas oublier les id des éléments)
+- Rajouter le code js dans `client.js`
+
+Si ça ne marche pas : remplacer par des données récupérées d'un des capteurs du téléphone (cf. slide 31 du cours).
