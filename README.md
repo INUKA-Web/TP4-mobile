@@ -15,3 +15,7 @@ On va vérifier que votre téléphone peut se connecter au serveur sur voter ord
 - Connecter votre téléhone **sur la même borne wifi que l'ordinateur**
 - ouvrir la même adresse
 
+Une fois que vous arrivez à accéder à votre site depuis votre téléphone :
+
+- Recopier cette instruction : `navigator.vibrate([50, 100, 150]);` (source : https://www.w3.org/TR/vibration/#examples)
+- La rajouter dans le code de la fonction de callback qui affiche l'heure.
